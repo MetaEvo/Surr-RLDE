@@ -43,7 +43,7 @@ The trained model will be saved to`output/surrogate_model/`
 The Surr-RLDE agent training process can be activated via the command below, which is just an example.
 
 ```bash
-python main.py --run_experiments --problem bbob-surrogate 
+python main.py --run_experiment --problem bbob-surrogate 
 ```
 
 For more adjustable settings, please refer to `main.py` and `config.py` for details.
@@ -81,3 +81,8 @@ You can compare Surr-RLDE with DEDQN, DEDDQN, GLEET by adding them into the agen
 ```bash
 python main.py --test --agent_load_dir YourAgentDir --agent_for_cp Surr_RLDE_Agent DEDQN_Agent --l_optimizer_for_cp Surr_RLDE_Optimizer DEDQN_optimizer
 ```
+
+
+
+## We highly recommend you visit [MetaBox 2.0](https://github.com/MetaEvo/MetaBox). In this repository, you will find additional baselines and improved parameter settings for the Surr-RLDE, as well as an expanded set of BBOB-surrogate problems.
+
