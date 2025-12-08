@@ -7,14 +7,12 @@ Here we provide source codes of Surr-RLDE, which has been recently accepted by G
 The PDF version of the paper is available [here](https://arxiv.org/abs/2503.18060 ). If you find our Surr-RLDE useful, please cite it in your publications or projects.
 
 ```latex
-@misc{ma2025surrogatelearningmetablackboxoptimization,
-      title={Surrogate Learning in Meta-Black-Box Optimization: A Preliminary Study}, 
-      author={Zeyuan Ma and Zhiyang Huang and Jiacheng Chen and Zhiguang Cao and Yue-Jiao Gong},
-      year={2025},
-      eprint={2503.18060},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2503.18060}, 
+@inproceedings{ma2025surrogate,
+  title={Surrogate learning in meta-black-box optimization: A preliminary study},
+  author={Ma, Zeyuan and Huang, Zhiyang and Chen, Jiacheng and Cao, Zhiguang and Gong, Yue-Jiao},
+  booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+  pages={1137--1145},
+  year={2025}
 }
 ```
 
